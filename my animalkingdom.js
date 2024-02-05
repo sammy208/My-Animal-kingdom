@@ -13,7 +13,7 @@ class KingdomAnimalia {
     }
  
     // This method is private, showing encapsulation and all it entails.
-    #identify(){
+    identify(){
         console.log(`Animals classified under ${this.name} are ${this.bloodtemperature} and ${this.backbone}.`);
         console.log(this); 
     }
